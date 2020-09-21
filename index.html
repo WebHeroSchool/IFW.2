@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./fonts.css">
-    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Digital Meeting Day</title>
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <header class="start">
-      <nav class="start__nav nav">
+  <body class="basis">
+    <header class="basis__header header">
+      <nav class="header__nav nav">
         <a href="#" class="nav__link">Связаться с нами</a>
         <a href="#" class="nav__link">Местоположение</a>
         <a href="#" class="nav__link">Забронировать</a>
         <a href="#" class="nav__link">Узнать цены</a>
       </nav>
-      <div class="introduce">
-        <h1 class="introduce__title title-dmd">Digital Meeting day</h1>
-          <p class="title-dmd__paragraph">Количество мест ограничено, успей купить билеты</p>
-        <button class="introduce__button">Купить</button>
+      <div class="header__introduce introduce">
+        <h1 class="introduce__title">Digital Meeting day</h1>
+        <p class="introduce__paragraph">Количество мест ограничено, успей купить билеты</p>
+        <button class="introduce__button button button_mediumvioletred">Купить</button>
       </div>
     </header>
-    <main>
-      <section class="first">
-        <div class="first__wrap wrap-one">
-          <h2 class="wrap-one__title title-one">Билеты на мероприятие Digital Meeting Day можно приобрести прямо сейчас</h2>
-            <p class="title-one__paragraph">7 000 рублей</p>
-          <button class="wrap-one__buy">Купить</button>
-          <button class="wrap-one__reserve">Забронировать</button>
-        </div>
+    <main class="base">
+      <section class="base__tickets tickets">
+        <h2 class="tickets__title title">Билеты на мероприятие Digital Meeting Day можно приобрести прямо сейчас</h2>
+        <p class="tickets__paragraph">7 000 рублей</p>
+        <button class="button">Купить</button>
+        <button class="tickets__reserve">Забронировать</button>
       </section>
-      <section class="second">
-        <div class="second__wrap wrap-two">
-          <h2 class="wrap-two__title title-two">Для участников</h2>
-            <p class="title-two__paragraph">Чтобы стать участником конкурса, вам необходимо подать заявку до 1 октября</p>
-          <img src="images/sectiontwo/pic.png" class="wrap-two__pic" alt="conference">
-          <button class="wrap-two__tender">Подать заявку</button>
+      <section class="participants">
+        <div class="participants__wrap wrap-info">
+          <h2 class="wrap-info__title title-note title">Для участников</h2>
+          <p class="wrap-info__paragraph">Чтобы стать участником конкурса, вам необходимо подать заявку до 1 октября</p>
         </div>
+        <img src="images/sectiontwo/pic.jpg" class="wrap-info__pic" alt="conference">
+        <button class="button">Подать заявку</button>
       </section>
-      <section class="third">
-        <div class="third__wrap wrap-three">
-          <h2 class="wrap-three__title title-three">Спикеры, которые подготовили для вас ценные лекции</h2>
-          <img src="images/sectionthree/1.png" class="wrap-three__pic-one" alt="first speaker">
-          <img src="images/sectionthree/2.png" class="wrap-three__pic-two" alt="second speaker">
-          <img src="images/sectionthree/3.png" class="wrap-three__pic-three" alt="third speaker">
-          <img src="images/sectionthree/4.png" class="wrap-three__pic-four" alt="fourth speaker">
-          <img src="images/sectionthree/5.png" class="wrap-three__pic-five" alt="fifth speaker">
-          <img src="images/sectionthree/6.png" class="wrap-three__pic-six" alt="sixth speaker">
-          <img src="images/sectionthree/7.png" class="wrap-three__pic-seven" alt="seventh speaker">
-          <img src="images/sectionthree/8.png" class="wrap-three__pic-eight" alt="eighth speaker">
+      <section class="speakers">
+        <h2 class="speakers__title title">Спикеры, которые подготовили для вас ценные лекции</h2>
+        <div class="speakers__photos photos">
+          <img src="images/sectionthree/1.jpg" class="photos__brown-blouse" alt="first speaker">
+          <img src="images/sectionthree/2.jpg" class="photos__white-blouse" alt="second speaker">
+          <img src="images/sectionthree/3.jpg" class="photos__glasses-man" alt="third speaker">
+          <img src="images/sectionthree/4.jpg" class="photos__blazer-man" alt="fourth speaker">
+          <img src="images/sectionthree/5.jpg" class="photos__beard-man" alt="fifth speaker">
+          <img src="images/sectionthree/6.jpg" class="photos__coffee-blouse" alt="sixth speaker">
+          <img src="images/sectionthree/7.jpg" class="photos__glasses-woman" alt="seventh speaker">
+          <img src="images/sectionthree/8.jpg" class="photos__tie-man" alt="eighth speaker">
         </div>
       </section>
     </main>
-    <footer class="end">
-      <div class="end__nav nav">
+    <footer class="footer">
+      <div class="footer__location location">
         <img src="images/footer/location.png" class="location__pic" alt="location symbol">
         <span>Местоположение</span>
       </div>
-      <div class="end__phone phone">
-        <span class="phone__first">+7 (926) 000 00 00</span>
-        <span class="phone__second">+7 (926) 000 00 00</span>
-      </div>
-      <div class="end__messanger messanger">
-        <img src="images/footer/whatsapp.png" class="messanger__whap" alt="whatsapp symbol">
-        <img src="images/footer/telegram.png" class="messanger__tgr" alt="telegram symbol">
+      <div class="footer__contacts contacts">
+        <div class="contacts__phone phone">
+          <span class="phone__main">+7 (926) 000 00 00</span>
+          <span class="phone__additional">+7 (926) 000 00 00</span>
+        </div>
+        <img src="images/footer/whatsapp.png" class="contacts__whap" alt="whatsapp symbol">
+        <img src="images/footer/telegram.png" class="contacts__tgr" alt="telegram symbol">
       </div>
     </footer>
   </body>
