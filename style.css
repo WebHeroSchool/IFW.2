@@ -1,11 +1,13 @@
 .basis {
   font-family: "Roboto", serif;
+  font-weight: 900;
   height: 2766px;
   width: 1440px;
 }
 
-/*.header {
+/* .header {
   background-image: url(images/nav/pic-bgr.jpg);
   height: 839px;
   width: 1440px;
-}*/
+} */
+\n
