@@ -17,7 +17,7 @@
   width: 1440px;
 }
 
-.nav__link { 
+.nav__link {
   color: #fff;
   font-size: 18px;
   padding-top: 70px;
@@ -111,7 +111,7 @@
 }
 
 .tickets__paragraph {
-  color: #263B83;
+  color: #263b83;
   font-weight: 900;
   font-size: 30px;
   margin: 0;
@@ -121,7 +121,7 @@
 .tickets__button {
   background-color: #ffda45;
   border: 0;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .25);
   margin-bottom: 18px;
 }
 
@@ -148,7 +148,6 @@
   color: #fff;
   flex-direction: column;
   font-weight: 900;
-
 }
 
 .wrap-info__title {
@@ -160,12 +159,12 @@
 }
 
 .wrap-info__paragraph {
-  /*height: 46px;*/
+  /* height: 46px; */
   margin: 0;
   padding-bottom: 108px;
   padding-left: 130px;
   padding-right: 43px;
-  /*width: 430px;*/
+  /* width: 430px; */
 }
 
 .wrap-info__pic {
