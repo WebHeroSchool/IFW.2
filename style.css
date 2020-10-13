@@ -67,7 +67,6 @@
 
 .burger {
   background-color: #fff;
-  /* border: 3px solid #fff; */
   display: none;
   height: 3px;
   position: relative;
@@ -76,7 +75,6 @@
 
 .burger::before {
   background-color: #fff;
-  /* border: 3px solid #fff; */
   content: " ";
   height: 3px;
   position: absolute;
@@ -86,7 +84,6 @@
 
 .burger::after {
   background-color: #fff;
-  /* border: 3px solid #fff; */
   bottom: 5px;
   content: " ";
   height: 3px;
@@ -95,7 +92,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .nav { 
+  .nav {
     display: block;
     margin-bottom: 15px;
   }
@@ -115,7 +112,6 @@
   flex-wrap: wrap;
   font-weight: 900;
   justify-content: flex-end;
-  /* margin-bottom: 570px; */
   margin-right: 130px;
 }
 
@@ -311,7 +307,6 @@
 
 .wrap-info {
   color: #fff;
-  /* flex-direction: column; */
   font-weight: 900;
   margin-left: 130px;
   margin-top: 118px;
