@@ -11,7 +11,7 @@
 .header {
   background-image: url(images/nav/pic-bgr.jpg);
   max-height: 839px;
-  padding: 0 calc(130px - 2 * (130px - (130 * 100% / 1440))); 
+  padding: 0 calc(130px - 2 * (130px - (130 * 100% / 1440)));
 }
 
 .nav {
@@ -242,11 +242,11 @@
 }
 
 @media screen and (max-width: 320px) {
-  .header { 
+  .header {
     background-image: url(images/nav/pic-bgr.jpg);
     background-size: cover;
     max-height: 334px;
-    padding: 0 calc(30px - 2 * (30px - (30 * 100% / 320))); 
+    padding: 0 calc(30px - 2 * (30px - (30 * 100% / 320)));
   }
 
   .nav {
