@@ -585,7 +585,7 @@
     font-size: 8px;
     font-style: normal;
     font-weight: 900;
-    max-height: 92px; 
+    max-height: 92px;
     max-width: 320px;
     padding: 0 calc(30px - 2 * (30px - (30 * 100% / 320)));
   }
@@ -595,13 +595,13 @@
     flex-direction: row;
     color: #e1e6e9;
     margin-right: 61px;
-    padding-right: 0px;
+    padding-right: 0;
     padding-top: 16px;
   }
 
   .location__pic {
     height: 9px;
-    margin-right: 3px; 
+    margin-right: 3px;
     width: 6px;
   }
 
@@ -631,7 +631,7 @@
     width: 20px;
   }
 
-  .contacts__img-two { 
+  .contacts__img-two {
     height: 16px;
     padding-top: 16px;
     width: 20px;
