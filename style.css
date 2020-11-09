@@ -10,7 +10,6 @@
 .header {
   background-image: url(images/nav/pic-bgr.jpg);
   max-height: 840px;
-  /* padding: 0 calc(130px - 2 * (130px - (130 * 100% / 1440))); */
   padding-right: 115px;
 }
 
@@ -152,7 +151,6 @@
   min-width: 185px;
   padding-left: 610px;
   padding-right: 625px;
-  /* text-align: center; */
 }
 
 .tickets__button {
@@ -188,7 +186,6 @@
   max-width: 1450px;
   padding-left: 128px;
   padding-right: 112px;
-  /* padding: 0 calc(130px - 2 * (130px - (130 * 100% / 1440))); */
 }
 
 .wrap-info {
@@ -207,7 +204,6 @@
   font-size: 20px;
   font-weight: 900;
   padding-bottom: 108px;
-  /*padding-right: 35px;*/
   margin: 0 45px 0 0;
   max-height: 46px;
   max-width: 435px;
@@ -218,7 +214,6 @@
   margin-right: 43px;
   max-height: 327px;
   max-width: 464px;
-  /* padding-right: 30px; */
 }
 
 .speakers {
@@ -383,7 +378,7 @@
   width: 52px;
 }
 
-@media screen and (min-width : 1600px) {
+@media screen and (min-width: 1600px) {
   .basis {
     background-color: #e3eafe;
     font-family: "Roboto", serif;
@@ -609,6 +604,7 @@
     font-style: normal;
     font-weight: 900;
     height: 55px;
+    margin-bottom: 20px;
     outline: none;
     text-align: center;
     width: 200px;
@@ -663,10 +659,6 @@
     align-self: center;
     max-height: 300px;
     max-width: 400px;
-    margin-bottom: 20px;
-  }
-
-  .button {
     margin-bottom: 20px;
   }
 
