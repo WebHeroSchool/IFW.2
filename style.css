@@ -527,7 +527,7 @@
     display: flex;
     flex-direction: row;
     color: #e1e6e9;
-    padding-right: 910px;
+    padding-right: 810px;
     padding-top: 48px;
   }
 
@@ -863,7 +863,7 @@
     flex-direction: column;
     font-weight: 900;
     justify-content: center;
-    padding-bottom: 41px;
+    padding-bottom: 22px;
   }
 
   .introduce__title {
@@ -984,8 +984,7 @@
     margin-bottom: 5px;
     max-height: 23px;
     max-width: 152px;
-    padding-left: 85px;
-    padding-right: 83px;
+    padding: 0 83px 0 85px;
     text-align: center;
   }
 
